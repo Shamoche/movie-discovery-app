@@ -1,0 +1,38 @@
+/* HomePage.css */
+
+/* Styles for the homepage */
+h1 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Styles for movie grid */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Styles for movie cards in the grid */
+.movie-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h2 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.movie-card p {
+  font-size: 0.9rem;
+  margin: 0 10px 10px;
+}

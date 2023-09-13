@@ -1,0 +1,25 @@
+/* MovieCard.css */
+
+/* Styles for individual movie cards */
+.movie-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h2 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.movie-card p {
+  font-size: 0.9rem;
+  margin: 0 10px 10px;
+}

@@ -1,0 +1,43 @@
+/* MovieSearch.css */
+
+/* Styles for the movie search page */
+h1 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Styles for the search bar */
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styles for search results */
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Additional styles for other components can be added as needed */
