@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage";
 import MovieSearch from "./components/MovieSearch";
 import MovieDetails from "./components/MovieDetails";
 import MovieCard from "./components/MovieCard";
+import { Switch, useHistory } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,8 +15,7 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/search" component={MovieSearch} />
           <Route path="/movies/:id" component={MovieDetails} />
-          <Route path="/movies/:id" component={MovieCard} />
-      
+          <Route path="/movies/:id" component={MovieCard} />     
         </Switch>
       </div>
     </Router>
